@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import './TaskCard.css';
+import React from 'react';
 
 const TaskCard = ({ title, due, assignee, completed }) => {
     return (
